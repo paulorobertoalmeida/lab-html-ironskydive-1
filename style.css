@@ -60,6 +60,7 @@ h4 {
 }
 
 .header h2 {
+    margin: 0;
     color: #ffffff;
     text-shadow: #020819 8px -20px 9px;
 }
@@ -133,4 +134,36 @@ ul {
     list-style: none;
     padding-inline-start: 0;
 
+}
+
+#general-information {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin: 0;
+}
+
+article {
+  width: 300px;
+  margin: 20px;
+  padding: 10px;  
+}
+
+#structure {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin: 0;
+}
+
+.container-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#team {
+    padding: 10px;
 }
