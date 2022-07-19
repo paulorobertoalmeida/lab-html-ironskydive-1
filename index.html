@@ -5,33 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;1,700&family=Roboto:wght@100;300;400&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <section>
+    <section id="general-information">
         <nav>
-            <div>
+            <div class="internal-nav">
                 <ul>
                     <li><a href="#">Day structure</a></li>
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Schedule</a></li>
                 </ul>
             </div>
-            <div id="hero">
-                <div>
-                    <h3>IronSkydive</h3>
-                    <h2>Let the trip Begin</h2>
-                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia architecto adipisci aperiam
-                        debitis magnam eos." </p>
-                </div>
-                <div>
-                    <img src="#" alt="A man jumping">
-                </div>
-
-            </div>
+        </nav>
+        <header id="hero">
             <div>
-                <div>
+                <h1>IronSkydive</h1>
+                <h2>Let the trip Begin</h2>
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia architecto adipisci aperiam
+                    debitis magnam eos." </p>
+            </div>
+        </header>
+        <div id="card-container">
+            <div class="internal-card">
+                <div class="card">
                     <div>
                         <h3>
                             Hello!
@@ -42,7 +51,7 @@
                         <button>Learn More</button>
                     </div>
                 </div>
-                <div>
+                <div class="card">
                     <div>
                         <h3>
                             about Us
@@ -53,7 +62,7 @@
                         <button>Learn More</button>
                     </div>
                 </div>
-                <div>
+                <div class="card">
                     <div>
                         <h3>
                             Wanna Join?
@@ -65,30 +74,31 @@
                     </div>
                 </div>
             </div>
-        </nav>
+        </div>
+
 
     </section>
-    <section id="main">
-        <div>
+    <section id="structure">
+        <div class="main-conteiner-one">
             <div>
                 <div>
                     <h1>How do we structure the day?</h1>
                 </div>
                 <div id="cards">
                     <div>
-                        <div>
+                        <div class="main-card">
                             <img src="#" alt="Books">
                             <h3>Training</h3>
                         </div>
-                        <div>
+                        <div class="main-card">
                             <img src="#" alt="Books">
                             <h3>2 - Get Ready</h3>
                         </div>
-                        <div>
+                        <div class="main-card">
                             <img src="#" alt="Books">
                             <h3>3- Fly</h3>
                         </div>
-                        <div>
+                        <div class="main-card">
                             <img src="#" alt="Books">
                             <h3>4-Jump</h3>
                         </div>
@@ -98,7 +108,7 @@
                 </div>
             </div>
         </div>
-        <div id="teams">
+        <section id="team">
             <div>
                 <div>
                     <h1>team</h1>
@@ -108,8 +118,8 @@
                 </div>
                 <img src="#" alt="">
             </div>
-        </div>
-        <div id="container-form">
+        </>
+        <section id="schedule">
 
 
             <table>
@@ -173,10 +183,10 @@
                 <button>Reserve Your Slot</button>
             </form>
 
-        </div>
+        </>
 
     </section>
-    <section id="footer">
+    
         <footer>
             <div>
                 <div>
@@ -199,8 +209,6 @@
                 </div>
             </div>
         </footer>
-
-    </section>
 </body>
 
 </html>
